@@ -1,5 +1,7 @@
 function [Psi_inter] = InterPol(N_old,N_new,psi,L)
 
+
+
 	o_range = linspace(-L/2,L/2,N_old);
 	n_range = linspace(-L/2,L/2,N_new);
 
